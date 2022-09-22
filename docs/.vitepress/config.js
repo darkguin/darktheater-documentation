@@ -20,7 +20,7 @@ module.exports = {
           text: 'Guide',
           collapsible: true,
           items: [
-            { text: 'Getting Started fr', link: '/frontend/getting-started' },
+            { text: 'Getting Started', link: '/frontend/getting-started' },
           ]
         },
       ],
