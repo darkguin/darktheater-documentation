@@ -26,12 +26,28 @@ module.exports = {
       ],
       '/backend/': [
         {
-          text: 'Guide',
+          text: 'Docs',
           collapsible: true,
           items: [
             { text: 'Getting Started', link: '/backend/getting-started' },
           ]
-        }
+        },
+        {
+          text: 'Api',
+          items: [
+            { text: 'Content API', link: '/backend/api/content' },
+            { text: 'Auth API', link: '/backend/api/auth' },
+          ]
+        },
+        {
+          text: 'Database',
+          items: [
+            { text: 'Authorization', link: '/backend/database/auth' },
+            { text: 'Content. Movies & Serials', link: '/backend/database/content' },
+            { text: 'Comments', link: '/backend/database/comments' },
+            { text: 'User lists', link: '/backend/database/user-lists' },
+          ]
+        },
       ],
     },
     socialLinks: [
