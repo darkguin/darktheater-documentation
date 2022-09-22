@@ -29,7 +29,7 @@ module.exports = {
           text: 'Docs',
           collapsible: true,
           items: [
-            { text: 'Getting Started', link: '/backend/getting-started' },
+            { text: 'Getting Started', link: '/backend/' },
           ]
         },
         {
