@@ -1,0 +1,26 @@
+{
+  "name": "darktheater-documentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkguin/darktheater-documentation.git"
+  },
+  "author": "Darkguin team",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/darkguin/darktheater-documentation/issues"
+  },
+  "homepage": "https://github.com/darkguin/darktheater-documentation#readme",
+  "devDependencies": {
+    "vite": "^3.1.3",
+    "vitepress": "^1.0.0-alpha.15",
+    "vitepress-plugin-search": "^1.0.4-alpha.7"
+  }
+}
