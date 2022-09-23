@@ -3,6 +3,7 @@ module.exports = {
   themeConfig: {
     logo: '/assets/img/logo.svg',
     siteTitle: 'darktheater',
+    components: './components/',
     nav: [
       { text: 'Introduction', link: '/introduction' },
       {
@@ -35,8 +36,21 @@ module.exports = {
         {
           text: 'Api',
           items: [
-            { text: 'Content API', link: '/backend/api/content' },
-            { text: 'Auth API', link: '/backend/api/auth' },
+            { text: 'Getting Started', link: '/backend/api/' },
+          ]
+        },
+        {
+          text: 'Auth API',
+          items: [
+            { text: 'API', link: '/backend/api/auth-api/' },
+            { text: 'OpenAPI. Swagger', link: '/backend/api/auth-api/open-api' },
+          ]
+        },
+        {
+          text: 'Content API',
+          items: [
+            { text: 'API', link: '/backend/api/content-api/' },
+            { text: 'OpenAPI. Swagger', link: '/backend/api/content-api/open-api' },
           ]
         },
         {
