@@ -50,6 +50,9 @@ module.exports = {
           text: 'Content API',
           items: [
             { text: 'API', link: '/backend/api/content-api/' },
+            { text: 'Content types', link: '/backend/api/content-api/content-types' },
+            { text: 'Movie', link: '/backend/api/content-api/movie' },
+            { text: 'Serial', link: '/backend/api/content-api/serial' },
             { text: 'OpenAPI. Swagger', link: '/backend/api/content-api/open-api' },
           ]
         },
