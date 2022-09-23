@@ -33,12 +33,12 @@ module.exports = {
             { text: 'Getting Started', link: '/backend/' },
           ]
         },
-        {
-          text: 'Api',
-          items: [
-            { text: 'Getting Started', link: '/backend/api/' },
-          ]
-        },
+        // {
+        //   text: 'Api',
+        //   items: [
+        //     { text: 'Getting Started', link: '/backend/api/' },
+        //   ]
+        // },
         {
           text: 'Auth API',
           items: [

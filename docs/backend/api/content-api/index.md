@@ -1,1 +1,6 @@
+---
+layout: doc
+---
+
+
 # Content API

@@ -1,3 +1,8 @@
+---
+layout: doc
+---
+
+
 # Content API. Serial
 
 ##

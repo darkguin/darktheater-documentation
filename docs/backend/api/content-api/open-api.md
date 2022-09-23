@@ -2,4 +2,7 @@
 layout: doc
 ---
 
-# Getting started
+
+# Content API. Swagger
+
+Coming soon...
