@@ -42,10 +42,11 @@ module.exports = {
         {
           text: 'Database',
           items: [
+            { text: 'Getting Started', link: '/backend/database/' },
             { text: 'Authorization', link: '/backend/database/auth' },
             { text: 'Content. Movies & Serials', link: '/backend/database/content' },
             { text: 'Comments', link: '/backend/database/comments' },
-            { text: 'User lists', link: '/backend/database/user-lists' },
+            { text: 'User lists (UCC - User content collections)', link: '/backend/database/user-lists' },
           ]
         },
       ],
