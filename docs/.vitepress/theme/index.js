@@ -8,7 +8,13 @@ export default {
   ...DefaultTheme,
   setup() {
     onMounted(() => {
-      mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' });
+      let observer = new MutationObserver(() => {
+        mediumZoom('[data-zoomable]', { background: 'var(--vp-c-bg)' });
+      });
+      observer.observe(document.getElementById("app"), {
+        childList: true,
+        subtree: true,
+      });
     });
   },
 };
