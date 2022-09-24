@@ -125,7 +125,7 @@ layout: doc
 | ```title```                | string<b style="color:red">*</b>           | Episode title                                                                  |
 | ```description```          | string                                     | Episode description                                                            |         
 | ```year```                 | number                                     | The year of the episode's premiere                                             |
-| ```release_date```         | Date<b style="color:red">*</b>             | Release date of the digital edition                                            |
+| ```release_date```         | Date<b style="color:red">*</b>             | Release date of the episode                                                    |
 | ```age_limit```            | number                                     | Age limit on watching a episode                                                |
 | ```countries```            | Country[]                                  | Countries that took part in the shooting of the episode                        |
 | ```actors```               | Actor[]                                    | Actors who starred in the episode                                              |
