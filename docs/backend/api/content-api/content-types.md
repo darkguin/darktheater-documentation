@@ -20,7 +20,7 @@ enum MediaContentType {
   MOVIE,
   SERIAL,
   SEASON,
-  EPISODE",
+  EPISODE,
   MOMENT
 }
 ```

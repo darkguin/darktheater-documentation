@@ -5,4 +5,4 @@ layout: doc
 
 # Content API. Swagger
 
-Coming soon...
+<Swagger id="auth_api" url="https://api.darktheater.net/content/openapi.json" />
