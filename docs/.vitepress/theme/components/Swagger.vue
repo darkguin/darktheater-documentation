@@ -62,4 +62,70 @@ onMounted(async () => {
   line-height: 12px;
   top: 0;
 }
+
+table, tr, td {
+  border: none !important;
+  border-collapse: collapse !important;
+}
+
+thead {
+  background: rgba(0,0,0,0.05);
+}
+
+.responses-table .response-col_status {
+  min-width: 40px !important;
+  width: fit-content !important;
+  text-align: center;
+}
+
+.responses-table .response-col_status:not(thead tr td) {
+  background: rgba(0,0,0,0.05);
+}
+
+.responses-table .response-col_description {
+  padding: 10px;
+}
+
+.responses-table .col_header {
+  font-size: 12px;
+  line-height: 1;
+  padding: 8px 4px;
+  text-align: center;
+}
+
+.response-col_links {
+  display: none;
+}
+
+.response-col_description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.model-example, .response-controls {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.model-example {
+  flex-grow: 1;
+}
+
+.model-example .tab {
+  display: flex;
+  align-items: center;
+  width: 100% !important;
+}
+
+.model-example .tab .tabitem {
+  margin: 0 !important;
+  padding: 0 10px !important;
+}
+
+.highlight-code pre {
+  line-height: 1.1;
+}
+
 </style>
