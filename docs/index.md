@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /introduction
+      link: /backend
     - theme: alt
       text: View on Frontend GitHub
       link: https://github.com/darkguin/darktheater-frontend
