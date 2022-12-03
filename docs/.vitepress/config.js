@@ -5,11 +5,11 @@ module.exports = {
     siteTitle: 'darktheater',
     components: './components/',
     nav: [
-      { text: 'Introduction', link: '/introduction' },
+//       { text: 'Introduction', link: '/introduction' },
       {
         text: 'Docs',
         items: [
-          { text: 'Frontend', link: '/frontend/' },
+//           { text: 'Frontend', link: '/frontend/' },
           { text: 'Backend', link: '/backend/' },
         ]
       },
